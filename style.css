@@ -1,0 +1,26 @@
+h1{
+    background-color: black;
+}
+
+#Titulo {
+    background-color: chocolate;
+}
+
+.Titulo2{
+    background-color: blue;
+}
+
+.titulo3{
+    background-color: black;
+    color: white;
+}
+
+strong{
+    color: darkslategrey;
+}
+body{
+    background-color: dimgrey;
+    font-family: cursive;
+    margin-left: 50%;
+    margin-top: 15%;
+}
