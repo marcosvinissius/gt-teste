@@ -16,11 +16,16 @@ h1{
 }
 
 strong{
-    color: darkslategrey;
+    color: rgb(4, 73, 105);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
     background-color: dimgrey;
     font-family: cursive;
     margin-left: 50%;
     margin-top: 15%;
+}
+
+#2{
+    fom
 }
