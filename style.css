@@ -1,7 +1,9 @@
-h1{
-    background-color: black;
+* {
+    margin: 1px;
+    padding: 1px;
 }
 
+/*Estilos para id=titulo  */
 #Titulo {
     background-color: chocolate;
 }
@@ -18,14 +20,46 @@ h1{
 strong{
     color: rgb(4, 73, 105);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 body{
-    background-color: dimgrey;
-    font-family: cursive;
-    margin-left: 50%;
-    margin-top: 15%;
+   margin-right: auto;
+   background-color: dimgrey;
+   margin-block-start: 5%;
 }
 
-#2{
-    fom
+input, select, button {
+    background-color: rgb(255, 138, 138);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 2px;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.grupo::before, .grupo::after {
+    display: table;
+}
+
+fieldset.grupo .campo {
+    /* float: left; */
+    /* margin: 10px; */
+}
+
+.ld {
+    font-family: cursive;
+    margin-left: 50%;
+    /* margin-top: 1%; */
+    margin-block-start: -20%;
+}
+
+button {
+    background-size: 30px;
 }
