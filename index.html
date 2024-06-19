@@ -7,53 +7,56 @@
     <link rel="stylesheet" type="text/css" href="style.css" media="screen">
 </head>
 <body>
+    <img src="img/Cmcx70pWcAAan_t.jpg" alt="lula virando o corote">
+
     <!-- Titulo -->
-    <div>
-        <h1 id="Titulo">CADASTRO</h1>
-    </div>
-    <div>
-        <h1 class="Titulo2">DO SUS</h1>
-    </div>
-    <div>
-        <h3 class="titulo3">GONVERNO DO ESTADO DO CEARÁ</h3>
-    </div>
+    <div class="ld">
+        <div>
+            <h1 id="Titulo">CADASTRO</h1>
+        </div>
+        <div>
+            <h1 class="Titulo2">DO SUS</h1>
+        </div>
+        <div>
+            <h3 class="titulo3">GONVERNO DO ESTADO DO CEARÁ</h3>
+        </div>
 
-    <form>
-        <fieldset>
-            <div>
-                <label>
-                    <strong>nome</strong>
-                </label>
-                <input type="text" name="nome" id="nome">
-            </div>
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label>
+                        <strong>nome</strong>
+                    </label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+
+                <!-- alt + shift + seta pra baixo -->
+
+                <div class="campo">
+                    <label>
+                        <strong>sobrenome</strong>
+                    </label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+            </fieldset >
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label>
+                        <strong>email</strong>
+                    </label>
+                    <input type="text" name="nome" id="nome">
+                </div>
 
             <!-- alt + shift + seta pra baixo -->
 
-            <div>
-                <label>
-                    <strong>sobrenome</strong>
-                </label>
-                <input type="text" name="nome" id="nome">
-            </div>
-        </fieldset>
-
-        <fieldset>
-            <div>
-                <label>
-                    <strong>email</strong>
-                </label>
-                <input type="text" name="nome" id="nome">
-            </div>
-
-            <!-- alt + shift + seta pra baixo -->
-
-            <div>
+            <div class="campo">
                 <label>
                     <strong>senha</strong>
                 </label>
                 <input type="password" name="senha" id="senha">
             </div>
-        </fieldset>
+        </fieldset >
         <div>
             <div>
                 <label>
@@ -86,7 +89,7 @@
                 </select>
             </div>
         </div>
-
+    </div>
         <button type="submit" onsubmit="">cadastrar</button>
 
     </form>
