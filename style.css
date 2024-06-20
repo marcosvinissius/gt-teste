@@ -48,10 +48,10 @@ input, select, button {
     display: table;
 }
 
-fieldset, .grupo, .campo {
+/* fieldset, .grupo, .campo { */
     /* float: left; */
     /* margin: 10px; */
-}
+/* } */
 
 .ld {
     font-family: cursive;
