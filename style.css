@@ -48,7 +48,7 @@ input, select, button {
     display: table;
 }
 
-fieldset.grupo .campo {
+fieldset, .grupo, .campo {
     /* float: left; */
     /* margin: 10px; */
 }
@@ -60,6 +60,3 @@ fieldset.grupo .campo {
     margin-block-start: -20%;
 }
 
-button {
-    background-size: 30px;
-}
