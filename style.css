@@ -54,9 +54,18 @@ input, select, button {
 /* } */
 
 .ld {
+    display: inline-block;
     font-family: cursive;
     margin-left: 50%;
     /* margin-top: 1%; */
     margin-block-start: -20%;
 }
 
+img {
+    width: 50%;
+    display: flex;
+}
+
+button {
+    width: auto;
+}
